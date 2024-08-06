@@ -15,14 +15,3 @@ app.listen(PORT,  () => {
     console.log('Listening on port: ', PORT);
 });
 
-
-// // Create a new task
-// router.post('/', (req, res) => {
-//     const { description } = req.body;
-//     pool.query('INSERT INTO tasks (description) VALUES ($1)', [description])
-//         .then(() => res.sendStatus(201))
-//         .catch(err => {
-//             console.error('Error executing query', err.stack);
-//             res.sendStatus(400);
-//         });
-// });
